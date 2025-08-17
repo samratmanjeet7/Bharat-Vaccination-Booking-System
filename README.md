@@ -37,11 +37,14 @@ This project focuses on real-world problem-solving with industry-standard backen
 ```
 git clone https://github.com/samratmanjeet7/Bharat-Vaccination-Booking-System.git
 ```
+
 cd Bharat-Vaccination-Booking-System
+
 ```
 
  - Configure Database
- ```
+
+ 
 Update your MySQL credentials in application.properties:
 ```
 
