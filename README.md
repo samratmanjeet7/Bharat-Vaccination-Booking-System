@@ -27,26 +27,33 @@ This project focuses on real-world problem-solving with industry-standard backen
 &nbsp;
 
 
+
+
+
+
+<a id="getting-started"></a>
 ⚙️ How to Run Locally
-1. Clone the Repository
-
+- Clone the Repository
+```
 git clone https://github.com/samratmanjeet7/Bharat-Vaccination-Booking-System.git
+```
 cd Bharat-Vaccination-Booking-System
+```
 
-2. Configure Database
-
+ - Configure Database
+ ```
 Update your MySQL credentials in application.properties:
+```
 
-3. Build and Run
+- Build and Run
+```
 
 mvn spring-boot:run
+```
 
 
-
-
+<a id="challengthe es"></a>
 🎯 Future Enhancements
-
-🌐 Integrate frontend (React/Angular) for a complete web app.
 
 📱 Mobile app support with REST APIs.
 
