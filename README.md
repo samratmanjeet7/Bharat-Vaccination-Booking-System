@@ -1,17 +1,21 @@
 # Bharat-Vaccination-Booking-System
-📌 About
+## 📌 About
 
-Bharat Vaccination Booking System is a backend application developed using Java and Spring Boot to manage and streamline vaccination bookings.
-The system provides features like user registration, authentication, slot booking, and vaccination tracking, ensuring smooth management of vaccination drives.
+#### Bharat Vaccination Booking System is a backend application developed using Java and Spring Boot to manage and streamline vaccination bookings.
+#### The system provides features like user registration, authentication, slot booking, and vaccination tracking, ensuring smooth management of vaccination drives.
 &nbsp;
 
-This project focuses on real-world problem-solving with industry-standard backend design and can be easily extended into a full-stack application.
+
+#### This project focuses on real-world problem-solving with industry-standard backend design and can be easily extended into a full-stack application.
 &nbsp;
+
+
+
 
 
 
 <a id="features"></a>
-🚀 Features
+## 🚀 Features
 
 👤 User Management: Register new users, update details, and login securely.
 
@@ -32,37 +36,52 @@ This project focuses on real-world problem-solving with industry-standard backen
 
 
 <a id="getting-started"></a>
-⚙️ How to Run Locally
-- Clone the Repository
+## 🚀Getting Started
+- Clone the git repository.
 ```
-git clone https://github.com/samratmanjeet7/Bharat-Vaccination-Booking-System.git
-```
-
-cd Bharat-Vaccination-Booking-System
+  git clone https://github.com/samratmanjeet7/Bharat-Vaccination-Booking-System.git
+   cd Bharat-Vaccination-Booking-System
 
 ```
-
- - Configure Database
-
- 
-Update your MySQL credentials in application.properties:
+- Configure Database.
 ```
-
+spring.datasource.url=jdbc:mysql://localhost:3306/vaccineDB
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+  
+```
 - Build and Run
 ```
-
-mvn spring-boot:run
+  mvn spring-boot:run
 ```
+- Test APIs using Postman or any API client.
+```
+
+
+
 
 
 <a id="challengthe es"></a>
-🎯 Future Enhancements
+## 🎯 Future Enhancements
 
 📱 Mobile app support with REST APIs.
 
 🔔 Email/SMS notifications for booking confirmation.
 
 📊 Dashboard for analytics and insights.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
